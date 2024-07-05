@@ -5,18 +5,38 @@ import Pokemones from './Pokemones'
 const pokemones=[
   {
     nombre:"Pikachu",
-    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/25.png'
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
   },
   {
     nombre:"Charizard",
-    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/6.png'
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png'
+  },
+  {
+    nombre: "Bulbasaur",
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png'
+
+  },
+  {
+    nombre: "Squirtle",
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png'
+  },
+  {
+    nombre: "Wartortle",
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png'
+  },
+  {
+    nombre: "Blastoise",
+    img:'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png'
   }
 ]
 function App() {
   
 
   return (
-    <Pokemones pokemones={pokemones}/> 
+    <div> 
+      <Pokemones pokemones={pokemones}/>
+    </div>
+  
   )
 }
 
